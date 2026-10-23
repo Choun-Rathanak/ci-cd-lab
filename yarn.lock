@@ -506,7 +506,6 @@ __metadata:
     express: "npm:^5.1.0"
     globals: "npm:^16.5.0"
     mocha: "npm:^12.0.3"
-    node: "npm:^26.12.1"
     supertest: "npm:^7.3.1"
   languageName: unknown
   linkType: soft
@@ -1562,24 +1561,6 @@ __metadata:
   dependencies:
     content-type: "npm:^2.1.0"
   checksum: 10c0/656fa57de02f1a0c4c09f9e17eb78e8182547c07093e810ff8f16249b6ae31f2c546a3d457905e94f3276b25f0e2741ea1a3bc3912192932ed7e493adfea535e
-  languageName: node
-  linkType: hard
-
-"node-bin-setup@npm:^1.0.0":
-  version: 1.1.4
-  resolution: "node-bin-setup@npm:1.1.4"
-  checksum: 10c0/2cd8f92cafb28c8b4bd65ff91d1b96f65a345d2ee1eee689c47255356568366103436188229f1337f881ac6315a2b6622b6df7ceb7b9631ff45344d68f2d43b4
-  languageName: node
-  linkType: hard
-
-"node@npm:^26.12.1":
-  version: 26.12.1
-  resolution: "node@npm:26.12.1"
-  dependencies:
-    node-bin-setup: "npm:^1.0.0"
-  bin:
-    node: bin/node
-  checksum: 10c0/c0a5798efd7ea759e745fc9d157708d6ee6d20c5c6635d66b0003ffafc899df5a5fbc2d04228a95f10ea4b27668ef2fe7a1ef330ee8e6ce7da8068cfb50fb605
   languageName: node
   linkType: hard
 
