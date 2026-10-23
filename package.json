@@ -14,11 +14,6 @@
     "coverage": "c8 mocha"
   },
   "c8": {
-    "exclude": [
-      ".pnp.cjs",
-      ".pnp.loader.mjs",
-      "test/**"
-    ],
     "reporter": [
       "text",
       "html"
